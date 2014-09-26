@@ -9,7 +9,7 @@ public class Triangle {
 		System.out.print(temp);
 
 	}
-
+//git bash test
 	public static String triangleBuilder(int a, int b, int c) {
 		String triangleName="Not a Triangle";//Default to not a triangle
 		if(a < b + c&&b < a + c&&c < a + b&&a!=0&&b!=0&&c!=0){
